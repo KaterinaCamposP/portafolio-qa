@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -12,7 +13,8 @@
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <style>
@@ -21,31 +23,31 @@
             --bs-secondary: #2c3e50;
             --bs-dark: #2c3e50;
         }
-        
+
         body {
             font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         }
-        
+
         .masthead {
             padding-top: calc(6rem + 74px);
             padding-bottom: 6rem;
             background-color: var(--bs-primary);
         }
-        
+
         .masthead-avatar {
             width: 15rem;
             height: 15rem;
         }
-        
+
         .masthead-heading {
             font-size: 2.75rem;
             line-height: 2rem;
         }
-        
+
         .masthead-subheading {
             font-size: 1.25rem;
         }
-        
+
         .divider-custom {
             margin: 1.25rem 0 1.5rem;
             width: 100%;
@@ -53,7 +55,7 @@
             justify-content: center;
             align-items: center;
         }
-        
+
         .divider-custom .divider-custom-line {
             width: 100%;
             max-width: 7rem;
@@ -62,37 +64,37 @@
             border-radius: 1rem;
             border-color: var(--bs-secondary);
         }
-        
+
         .divider-custom .divider-custom-line:first-child {
             margin-right: 1rem;
         }
-        
+
         .divider-custom .divider-custom-line:last-child {
             margin-left: 1rem;
         }
-        
+
         .divider-custom .divider-custom-icon {
             color: var(--bs-secondary);
             font-size: 2rem;
         }
-        
+
         .divider-custom.divider-light .divider-custom-line {
             background-color: #fff;
         }
-        
+
         .divider-custom.divider-light .divider-custom-icon {
             color: #fff;
         }
-        
+
         .page-section {
             padding: 6rem 0;
         }
-        
+
         .page-section-heading {
             font-size: 2.25rem;
             line-height: 2rem;
         }
-        
+
         .portfolio-item {
             cursor: pointer;
             position: relative;
@@ -101,7 +103,7 @@
             border-radius: 0.5rem;
             overflow: hidden;
         }
-        
+
         .portfolio-item .portfolio-item-caption {
             position: absolute;
             top: 0;
@@ -110,66 +112,66 @@
             opacity: 0;
             background-color: rgba(26, 188, 156, 0.9);
         }
-        
+
         .portfolio-item:hover .portfolio-item-caption {
             opacity: 1;
         }
-        
+
         .navbar {
             padding-top: 1rem;
             padding-bottom: 1rem;
             font-weight: 700;
         }
-        
+
         .navbar-brand {
             color: #fff;
         }
-        
+
         .bg-secondary {
             background-color: var(--bs-secondary) !important;
         }
-        
+
         .bg-primary {
             background-color: var(--bs-primary) !important;
         }
-        
+
         .text-primary {
             color: var(--bs-primary) !important;
         }
-        
+
         .text-secondary {
             color: var(--bs-secondary) !important;
         }
-        
+
         .btn-primary {
             background-color: var(--bs-primary);
             border-color: var(--bs-primary);
         }
-        
+
         .btn-outline-light {
             color: #fff;
             border-color: #fff;
         }
-        
+
         .btn-outline-light:hover {
             background-color: #fff;
             color: var(--bs-primary);
         }
-        
+
         .project-card {
             background: white;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 1.5rem;
             margin-bottom: 2rem;
             height: 100%;
         }
-        
+
         .project-title {
             color: var(--bs-secondary);
             margin-bottom: 1rem;
         }
-        
+
         .tech-tag {
             background-color: var(--bs-primary);
             color: white;
@@ -179,13 +181,13 @@
             margin: 0.125rem;
             display: inline-block;
         }
-        
+
         .timeline {
             list-style: none;
             padding: 20px 0 20px;
             position: relative;
         }
-        
+
         .timeline:before {
             top: 0;
             bottom: 0;
@@ -196,24 +198,24 @@
             left: 50%;
             margin-left: -1.5px;
         }
-        
-        .timeline > li {
+
+        .timeline>li {
             margin-bottom: 50px;
             position: relative;
             min-height: 50px;
         }
-        
-        .timeline > li:before,
-        .timeline > li:after {
+
+        .timeline>li:before,
+        .timeline>li:after {
             content: " ";
             display: table;
         }
-        
-        .timeline > li:after {
+
+        .timeline>li:after {
             clear: both;
         }
-        
-        .timeline > li .timeline-panel {
+
+        .timeline>li .timeline-panel {
             width: 46%;
             float: left;
             border: 1px solid #d4d4d4;
@@ -223,8 +225,8 @@
             -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
             box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
         }
-        
-        .timeline > li .timeline-panel:before {
+
+        .timeline>li .timeline-panel:before {
             position: absolute;
             top: 26px;
             right: -15px;
@@ -235,8 +237,8 @@
             border-bottom: 15px solid transparent;
             content: " ";
         }
-        
-        .timeline > li .timeline-panel:after {
+
+        .timeline>li .timeline-panel:after {
             position: absolute;
             top: 27px;
             right: -14px;
@@ -247,8 +249,8 @@
             border-bottom: 14px solid transparent;
             content: " ";
         }
-        
-        .timeline > li .timeline-image {
+
+        .timeline>li .timeline-image {
             left: 50%;
             margin-left: -50px;
             width: 100px;
@@ -261,31 +263,31 @@
             border: 7px solid #e9ecef;
             text-align: center;
         }
-        
-        .timeline > li .timeline-image img {
+
+        .timeline>li .timeline-image img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
-        
-        .timeline > li.timeline-inverted > .timeline-panel {
+
+        .timeline>li.timeline-inverted>.timeline-panel {
             float: right;
         }
-        
-        .timeline > li.timeline-inverted > .timeline-panel:before {
+
+        .timeline>li.timeline-inverted>.timeline-panel:before {
             border-left-width: 0;
             border-right-width: 15px;
             left: -15px;
             right: auto;
         }
-        
-        .timeline > li.timeline-inverted > .timeline-panel:after {
+
+        .timeline>li.timeline-inverted>.timeline-panel:after {
             border-left-width: 0;
             border-right-width: 14px;
             left: -14px;
             right: auto;
         }
-        
+
         .footer {
             padding-top: 5rem;
             padding-bottom: 5rem;
@@ -300,15 +302,20 @@
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top">Portafolio QA </a>
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#portfolio">Proyectos</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#about">Sobre Mí</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#estudios">Estudios</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white"
+                            href="#portfolio">Proyectos</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white"
+                            href="#about">Sobre Mí</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white"
+                            href="#estudios">Estudios</a></li>
                 </ul>
             </div>
         </div>
@@ -320,7 +327,7 @@
             <!-- Masthead Avatar Image-->
             <img class="masthead-avatar mb-5 rounded-circle" src="assets/img/portfolio/sofia.webp" alt="..." />
             <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">Katerina Campos Pizarro</h1>
+            <h1 class="masthead-heading text mb-0">Katerina Campos Pizarro</h1>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
@@ -328,124 +335,622 @@
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">QA Automation - Desarrollo de Software - RPA</p>
-            <p class="masthead-subheading font-weight-light mb-0">EN EDICIÓN..</p>
-        </div>
+            <!-- <p class="masthead-subheading font-weight-light mb-0">Analista Programadora Computacional | Java | Python | Javascript | Typescript</p>
+            <p class="masthead-subheading font-weight-light mb-0">Selenium | Cucumber | JUnit | TestNG | Maven | Mockito | Jacoco | Postman | Newman | JMeter</p> -->
+            <p class="masthead-subheading font-weight-light mb-0">Analista Programadora Computacional</p>
+            <p class="masthead-subheading font-weight-light mb-0">Especializada en Automatización de Pruebas</p>
+
     </header>
 
     <!-- Portfolio Section-->
     <section class="page-section portfolio" id="portfolio">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portafolio de Proyectos</h2>
+            <h2 class="page-section-heading text-center text text-secondary mb-0">Portafolio de Proyectos</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
-            
             <!-- Portfolio Projects-->
             <div class="row">
-                <!-- Proyecto 1: Testing Unitario-->
+                <!-- Proyecto M3ACT1-->
                 <div class="col-lg-6 mb-4">
                     <div class="project-card">
-                        <h4 class="project-title">🧪 Testing Unitario con JUnit y Mockito</h4>
-                        <p><strong>Descripción:</strong> Implementación de pruebas unitarias para un sistema de tareas.</p>
+                        <h4 class="project-title">Sistema de Gestión de Productos con TDD</h4>
+                        <p><strong>Descripción:</strong> Desarrollo de un sistema simple de gestión de tareas.</p>
                         <p><strong>Objetivo:</strong> Validar funciones básicas aplicando TDD (Red–Green–Refactor).</p>
                         <div class="mb-3">
                             <span class="tech-tag">Java 17</span>
                             <span class="tech-tag">JUnit 5</span>
-                            <span class="tech-tag">Mockito</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">TDD</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Aprendi a utilizar Junit y Maven para gestionar dependencias y
+                                ejecutar pruebas.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/task-manager"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M3ACT3-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Gestor de Productos con JUnit</h4>
+                        <p><strong>Descripción:</strong> Sistema de gestión de productos con pruebas unitarias JUnit 5 y
+                            TDD.</p>
+                        <p><strong>Objetivo:</strong> Validar funciones CRUD con pruebas parametrizadas.</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">JUnit 5</span>
+                            <span class="tech-tag">Maven</span>
                             <span class="tech-tag">Hamcrest</span>
+                            <span class="tech-tag">TDD</span>
                         </div>
-                        <p class="text-muted"><em>Aprendí a diferenciar el sujeto bajo prueba y dependencias usando mocks. Mejoraría la cobertura con más casos negativos.</em></p>
+                        <!-- <p class="text-muted"><em>Aprendí a utilizar JUnit y Maven para gestionar dependencias y ejecutar pruebas parametrizadas con Hamcrest.</em></p> -->
                         <div class="d-flex gap-2">
-                            <a href="#" class="btn btn-primary btn-sm">Demo</a>
-                            <a href="https://github.com/katerina-campos/task-tracker-tests" class="btn btn-outline-primary btn-sm" target="_blank">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/product-manager"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
                                 <i class="fab fa-github"></i> GitHub
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Proyecto 2: Selenium-->
+                <!-- Proyecto M3ACT4-->
                 <div class="col-lg-6 mb-4">
                     <div class="project-card">
-                        <h4 class="project-title">🌐 Automatización Funcional con Selenium</h4>
-                        <p><strong>Descripción:</strong> Automatización de login y flujo de compra en e-commerce.</p>
-                        <p><strong>Objetivo:</strong> Validar la experiencia de usuario en escenarios críticos.</p>
+                        <h4 class="project-title">Pruebas para un Sistema de Tareas</h4>
+                        <p><strong>Descripción:</strong></p>desarrollo de programa que permita administrar tareas y
+                        evaluar su funcionalidad mediante pruebas automatizadas.</p>
+                        <p><strong>Objetivo:</strong>Aplicar los conocimientos adquiridos sobre pruebas unitarias,
+                            buenas prácticas de testing y herramientas como Junit y Hamcrest.</p>
                         <div class="mb-3">
-                            <span class="tech-tag">Java</span>
-                            <span class="tech-tag">Selenium WebDriver</span>
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">JUnit 5</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">Hamcrest</span>
+                            <span class="tech-tag">TDD</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Aprendí a utilizar JUnit y Maven para gestionar dependencias y ejecutar pruebas parametrizadas con Hamcrest.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/task-tracker"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M3ACT5-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Testing de un Sistema de Notificaciones</h4>
+                        <p><strong>Descripción:</strong></p>Pruebas aisladas a sistema que permite enviar notificaciones
+                        por distintos canales (correo electrónico, SMS)</p>
+                        <p><strong>Objetivo:</strong>Se aplican pruebas unitarias, el uso de Mocks con Mockito y
+                            cobertura de tests con JaCoCo</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">JUnit 5</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">Mockito</span>
+                            <span class="tech-tag">JaCoCo</span>
+                            <span class="tech-tag">BDD</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Aprendí a utilizar JUnit y Maven para gestionar dependencias y ejecutar pruebas parametrizadas con Hamcrest.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/notification-center"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M3ACT6-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Gestor de Tareas con Validación Automatizada</h4>
+                        <p><strong>Descripción:</strong></p>Pruebas automatizadas con TestNG, mediante el diseño de una
+                        solución funcional.</p>
+                        <p><strong>Objetivo:</strong>Desarrollo de pruebas parametrizadas, estructuradas y
+                            automatizadas.</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
                             <span class="tech-tag">TestNG</span>
-                            <span class="tech-tag">WebDriverManager</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">XML</span>
                         </div>
-                        <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p>
+                        <!-- <p class="text-muted"><em>Aprendí a utilizar JUnit y Maven para gestionar dependencias y ejecutar pruebas parametrizadas con Hamcrest.</em></p> -->
                         <div class="d-flex gap-2">
-                            <a href="#" class="btn btn-primary btn-sm">Demo</a>
-                            <a href="https://github.com/katerina-campos/selenium-ecommerce" class="btn btn-outline-primary btn-sm" target="_blank">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/task-manager2"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M3EV3-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Testing Ágil en Plataforma de Reservas Deportivas</h4>
+                        <p><strong>Descripción:</strong></p>Pruebas en plataforma web para el manejo de reservas en
+                        centros deportivos comunitarios</p>
+                        <p><strong>Objetivo:</strong></p>
+                        <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">JUnit 5</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">Mockito</span>
+                            <span class="tech-tag">Mockito</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Aprendí a utilizar JUnit y Maven para gestionar dependencias y ejecutar pruebas parametrizadas con Hamcrest.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/reservas-deportivas"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
                                 <i class="fab fa-github"></i> GitHub
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Proyecto 3: BDD Cucumber-->
+                <!-- Proyecto M4ACT4-->
                 <div class="col-lg-6 mb-4">
                     <div class="project-card">
-                        <h4 class="project-title">📖 Pruebas BDD con Cucumber</h4>
-                        <p><strong>Descripción:</strong> Automatización de historias clínicas con enfoque BDD.</p>
-                        <p><strong>Objetivo:</strong> Validar login, registro de fichas y reglas de negocio usando Gherkin.</p>
+                        <h4 class="project-title">Automatización y Validación de un formulario de registro con Selenium
+                            WebDriver</h4>
+                        <p><strong>Descripción:</strong>Automatización y Validación de ingreso de datos de formulario.
+                        </p>
+                        <p><strong>Objetivo:</strong> Automatizar la interacción con formularios web, manipulando
+                            distintos elementos HTML como input, textarea, checkbox, radio, select y multiselect.</p>
                         <div class="mb-3">
-                            <span class="tech-tag">Java</span>
-                            <span class="tech-tag">Selenium</span>
-                            <span class="tech-tag">Cucumber</span>
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Selenium WebDriver</span>
+                            <span class="tech-tag">JUnit 5</span>
+                            <span class="tech-tag">WebDriverManager</span>
                             <span class="tech-tag">Maven</span>
                         </div>
-                        <p class="text-muted"><em>Aprendí a escribir escenarios en lenguaje natural para facilitar la comunicación con "los 3 amigos". Mejoraría la parametrización de datos.</em></p>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
                         <div class="d-flex gap-2">
-                            <a href="#" class="btn btn-primary btn-sm">Demo</a>
-                            <a href="https://github.com/katerina-campos/bdd-clinica" class="btn btn-outline-primary btn-sm" target="_blank">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/formulario-registro"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
                                 <i class="fab fa-github"></i> GitHub
                             </a>
                         </div>
                     </div>
                 </div>
-
-                <!-- Proyecto 4: API Testing-->
+                <!-- Proyecto M4EV4-->
                 <div class="col-lg-6 mb-4">
                     <div class="project-card">
-                        <h4 class="project-title">🔌 API Testing con Postman y Newman</h4>
-                        <p><strong>Descripción:</strong> Validación de endpoints REST en un sistema de reservas.</p>
-                        <p><strong>Objetivo:</strong> Garantizar integridad de respuestas JSON y status codes.</p>
+                        <h4 class="project-title">QA Automatizado para Banca Ficticia</h4>
+                        <p><strong>Descripción:</strong>Validación automatizada de funcionalidades de sitio web.</p>
+                        <p><strong>Objetivo:</strong>Automatizar la validación de las funcionalidades principales del
+                            sitio web, simulando la experiencia de un usuario real.</p>
                         <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Selenium WebDriver</span>
+                            <span class="tech-tag">JUnit 5</span>
+                            <span class="tech-tag">WebDriverManager</span>
+                            <span class="tech-tag">Maven</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/bancaficticia"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M5ACT1-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Inicio de Sesión Automatizado con Cucumber + Selenium</h4>
+                        <p><strong>Descripción:</strong>Automatizar inicio de sesion con buenas prácticas y metodologias
+                            ágiles.</p>
+                        <p><strong>Objetivo:</strong>Automatizar un escenario funcional completo utilizando Cucumber y
+                            Selenium WebDriver en Java, organizando el proyecto con Maven, aplicando BDD y ejecutando la
+                            prueba desde Visual Studio Code</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Selenium WebDriver</span>
+                            <span class="tech-tag">JUnit 5</span>
+                            <span class="tech-tag">WebDriverManager</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">JSON Report</span>
+                            <span class="tech-tag">Cucumber</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/inicio" class="btn btn-outline-primary btn-sm"
+                                target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M5ACT2-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Construcción de Escenarios Gherkin en Proyecto Automatizado con Java +
+                            Cucumber</h4>
+                        <p><strong>Descripción:</strong> Aplicar la sintaxis Gherkin para redactar escenarios
+                            funcionales comprensibles por todos los miembros del equipo.</p>
+                        <p><strong>Objetivo:</strong>Aplicar la sintaxis Gherkin para redactar escenarios
+                            funcionales comprensibles por todos los miembros del equipo.</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Selenium WebDriver</span>
+                            <span class="tech-tag">JUnit 5</span>
+                            <span class="tech-tag">WebDriverManager</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">Gherkin</span>
+                            <span class="tech-tag">Cucumber</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/login" class="btn btn-outline-primary btn-sm"
+                                target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M5ACT3-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Construcción de un Flujo BDD Completo con Cucumber y Selenium</h4>
+                        <p><strong>Descripción:</strong> Aplicar los conocimientos adquiridos sobre BDD y la herramienta
+                            Cucumber para automatizar un escenario de inicio de sesión exitoso, utilizando lenguaje
+                            Gherkin, definición de pasos (steps) y Selenium WebDriver con Java.</p>
+                        <p><strong>Objetivo: </strong>Aplicar los conocimientos adquiridos sobre BDD y la herramienta
+                            Cucumber para automatizar un escenario de inicio de sesión exitoso, utilizando lenguaje
+                            Gherkin, definición de pasos (steps) y Selenium WebDriver con Java.</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Selenium WebDriver</span>
+                            <span class="tech-tag">JUnit 5</span>
+                            <span class="tech-tag">WebDriverManager</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">Gherkin</span>
+                            <span class="tech-tag">Cucumber</span>
+                            <span class="tech-tag">BDD</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/bdd-login-project"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M5ACT4-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Automatización de Validación de Transferencias con Datos
+                            Parametrizados</h4>
+                        <p><strong>Descripción:</strong> Aplicar el uso de Scenario Outline y Examples para validar
+                            múltiples combinaciones de datos en un mismo flujo.</p>
+                        <p><strong>Objetivo:</strong>Aplicar el uso de Scenario Outline y Examples para validar
+                            múltiples combinaciones de datos en un mismo flujo.</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Selenium WebDriver</span>
+                            <span class="tech-tag">JUnit 5</span>
+                            <span class="tech-tag">WebDriverManager</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">Gherkin</span>
+                            <span class="tech-tag">Cucumber</span>
+                            <span class="tech-tag">BDD</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/datable-selenium"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M5EV5-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Validación de Historias de Usuario Clínicas con Cucumber y BDD</h4>
+                        <p><strong>Descripción:</strong> Diseñar, estructurar y desarrollar un proyecto de
+                            automatización de pruebas funcionales utilizando Java, Cucumber, Selenium WebDriver y Maven.
+                        </p>
+                        <p><strong>Objetivo: </strong>Enfoque BDD mediante la redacción de historias de usuario en
+                            lenguaje
+                            Gherkin, integrando múltiples escenarios, datos parametrizados, Tags y Hooks. Uso del
+                            patrón Page Object Model y WebDriverManager</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Selenium WebDriver</span>
+                            <span class="tech-tag">JUnit 5</span>
+                            <span class="tech-tag">WebDriverManager</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">Gherkin</span>
+                            <span class="tech-tag">Cucumber</span>
+                            <span class="tech-tag">BDD</span>
+                            <span class="tech-tag">POM</span>
+                            <span class="tech-tag">JSON Reports</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/clinica-modular-completo"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M6ACT2-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">API REST Segura para Gestión de Productos y Usuarios</h4>
+                        <p><strong>Descripción:</strong> Desarrollo de una API REST con Spring Boot y H2 que permita
+                            registrar y autenticar usuarios con JWT, gestionar productos con soft delete, proteger rutas
+                            con Spring Security, y configurar la aplicación mediante variables de entorno usando un
+                            archivo application.yaml</p>
+                        <p><strong>Objetivo: </strong>Desarrollar una API REST con Spring Boot y H2 que gestione
+                            productos,
+                            registre y autentique usuarios, proteja operaciones con JWT y utilice variables de
+                            entorno para su configuración.</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Spring Web</span>
+                            <span class="tech-tag">Spring Data JPA</span>
+                            <span class="tech-tag">H2 Database</span>
+                            <span class="tech-tag">Spring Validation</span>
+                            <span class="tech-tag">Spring Security</span>
+                            <span class="tech-tag">JWT</span>
+                            <span class="tech-tag">Hibernate/SQL</span>
+                            <span class="tech-tag">Spring Boot Test</span>
+                            <span class="tech-tag">Spring Security Test</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/apiGestion"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M6ACT3-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Gestión de Productos de Tienda</h4>
+                        <p><strong>Descripción:</strong>Se implementó una lógica que depende de un servicio externo de
+                            “descuentos especiales”, pero quiere asegurarse de que la lógica principal funcione
+                            correctamente sin depender del servicio real. Se prueba la lógica usando mocks y aserciones.
+                        </p>
+                        <p><strong>Objetivo: </strong>Aplicar Hamcrest, AssertJ y Mockito para probar una lógica de
+                            negocio
+                            orientada a Servicios.</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Spring Web</span>
+                            <span class="tech-tag">Spring Data JPA</span>
+                            <span class="tech-tag">H2 Database</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">JUnit 5</span>
+                            <span class="tech-tag">Mockito</span>
+                            <span class="tech-tag">AssertJ</span>
+                            <span class="tech-tag">Hamcrest</span>
+                            <span class="tech-tag">JaCoCo</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/servicio-rest-tienda"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M6ACT5-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Automatización de pruebas para API Rest en Plataforma de Comercio
+                            Electrónico</h4>
+                        <p><strong>Descripción:</strong>Desarrollo de una API REST con Spring Boot y H2 que permita
+                            registrar y autenticar
+                            usuarios con JWT, gestionar productos con soft delete, proteger rutas con Spring Security, y
+                            configurar la aplicación mediante variables de entorno usando un archivo application.yaml
+                        </p>
+                        <p><strong>Objetivo: </strong>Demostrar y fortalecer las habilidades de testeo en APIs REST
+                            mediante la
+                            creación y ejecución de una suite de pruebas automatizadas, utilizando herramientas como
+                            Postman y Newman.</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Spring Web</span>
+                            <span class="tech-tag">Spring Data JPA</span>
+                            <span class="tech-tag">Spring Validation</span>
+                            <span class="tech-tag">Spring Security</span>
+                            <span class="tech-tag">H2 Database</span>
+                            <span class="tech-tag">Nimbus JOSE + JWT</span>
+                            <span class="tech-tag">Spring Security Test</span>
+                            <span class="tech-tag">Spring Boot Test</span>
                             <span class="tech-tag">Postman</span>
                             <span class="tech-tag">Newman</span>
                         </div>
-                        <p class="text-muted"><em>Pude integrar pruebas newman. Mejoraría el coverage incluyendo pruebas de error.</em></p>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
                         <div class="d-flex gap-2">
-                            <a href="#" class="btn btn-primary btn-sm">Demo</a>
-                            <a href="https://github.com/katerina-campos/api-testing-reservas" class="btn btn-outline-primary btn-sm" target="_blank">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/apiGestion2"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
                                 <i class="fab fa-github"></i> GitHub
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Proyecto 5: JMeter-->
-                <div class="col-lg-12 mb-4">
+                <!-- Proyecto M6EV6-->
+                <div class="col-lg-6 mb-4">
                     <div class="project-card">
-                        <h4 class="project-title">⚡ Pruebas de Rendimiento con JMeter</h4>
-                        <p><strong>Descripción:</strong> Simulación de 50 usuarios concurrentes en sitio BlazeDemo.</p>
-                        <p><strong>Objetivo:</strong> Identificar el límite de carga del servidor y proponer mejoras.</p>
+                        <h4 class="project-title">Pruebas de Servicio Web</h4>
+                        <p><strong>Descripción:</strong>Diseñar e implementar un conjunto de pruebas automatizadas sobre
+                            una API RET pública o simulada, que permitan validar su correcto funcionamiento, asegurar
+                            sus recursos, y aplicar buenas prácticas de pruebas de servicios web acorde a los estándares
+                            de la industria.
+                        </p>
+                        <p><strong>Objetivo: </strong>Implementar un plan de pruebas automatizadas que permita validar
+                            el
+                            correcto funcionamiento y seguridad de sus servicios web. Se realizan validaciones
+                            mediante aserciones y automatización.</p>
                         <div class="mb-3">
-                            <span class="tech-tag">Apache JMeter</span>
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Spring Web</span>
+                            <span class="tech-tag">Spring Data JPA</span>
+                            <span class="tech-tag">Spring Validation</span>
+                            <span class="tech-tag">Spring Security</span>
+                            <span class="tech-tag">JPA + Hibernate</span>
+                            <span class="tech-tag">H2 Database</span>
+                            <span class="tech-tag">Jackson</span>
+                            <span class="tech-tag">Nimbus JOSE</span>
+                            <span class="tech-tag">JWT</span>
+                            <span class="tech-tag">REST Assured</span>
+                            <span class="tech-tag">AssertJ</span>
                         </div>
-                        <p class="text-muted"><em>Aprendí a usar timers y assertions para validar rendimiento realista. Mejoraría la parametrización con CSVs más variados.</em></p>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
                         <div class="d-flex gap-2">
-                            <a href="#" class="btn btn-primary btn-sm">Demo</a>
-                            <a href="https://github.com/katerina-campos/jmeter-blazedemo" class="btn btn-outline-primary btn-sm" target="_blank">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/api-restfull-springboot2"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M7ACT3-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Diseño de un Plan de Pruebas Automatizado en JMeter para Evaluar un
+                            Sitio de Pruebas Web</h4>
+                        <p><strong>Descripción:</strong> Diseñar un plan de pruebas automatizado en
+                            JMeter que permita evaluar el comportamiento de este sitio frente a múltiples usuarios
+                            simultáneos, simulando
+                            búsquedas de vuelos y completando el proceso de compra con diferentes datos de clientes.
+                        </p>
+                        <p><strong>Objetivo:</strong> Preparar un escenario controlado que permita evaluar tiempos de
+                            respuesta, comportamiento del
+                            sitio ante múltiples usuarios y detección de posibles errores o demoras en el proceso.</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">JMeter</span>
+                            <span class="tech-tag">Thread Group</span>
+                            <span class="tech-tag">HTTP Request Defaults</span>
+                            <span class="tech-tag">CSV Data Set Config</span>
+                            <span class="tech-tag">Transaction Controllers</span>
+                            <span class="tech-tag">HTTP Request</span>
+                            <span class="tech-tag">Assertions</span>
+                            <span class="tech-tag">HTTP(S) Test Script Recorder</span>
+                            <span class="tech-tag">View Results Tree</span>
+                            <span class="tech-tag">Summary Report</span>
+                            <span class="tech-tag">Aggregate Report</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/blazedemo-jmeter"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M7ACT4-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Simulación de Pruebas de Performance sobre un Servicio Público de
+                            Consultas</h4>
+                        <p><strong>Descripción:</strong> Aplicar los conocimientos adquiridos en el diseño,
+                            configuración y ejecución de
+                            pruebas de performance utilizando Apache JMeter, sobre un servicio API público, con el fin
+                            de evaluar su comportamiento ante escenarios de carga que emulen el uso de usuarios
+                            reales.
+
+                        </p>
+                        <p><strong>Objetivo:</strong> Realizar un análisis de
+                            performance sobre un servicio público, el cual están evaluando para ser utilizado como
+                            fuente de datos en una
+                            futura integración.</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">JMeter</span>
+                            <span class="tech-tag">Thread Group</span>
+                            <span class="tech-tag">Listeners</span>
+                            <span class="tech-tag">HTTP Request</span>
+                            <span class="tech-tag">Gaussian Random Timer</span>
+                            <span class="tech-tag">HTTP Cookie Manager</span>
+                            <span class="tech-tag">HTTP Cache Manager</span>
+                            <span class="tech-tag">View Results Tree</span>
+                            <span class="tech-tag">Summary Report</span>
+                            <span class="tech-tag">Aggregate Report</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/jsonplaceholder-jmeter"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto M7EV7-->
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <h4 class="project-title">Evaluación de rendimiento sobre API pública
+                            JSONPlaceholder</h4>
+                        <p><strong>Descripción:</strong> Diseñar, configurar, ejecutar y analizar un plan de pruebas
+                            completo en JMeter, sobre un sistema real accesible de manera pública.
+
+                        </p>
+                        <p><strong>Objetivo:</strong> Elaborar un
+                            plan de pruebas que permita medir su comportamiento ante diferentes escenarios de carga,
+                            parametrización de datos y configuración avanzada de elementos de prueba.</p>
+                        <div class="mb-3">
+                            <span class="tech-tag">JMeter</span>
+                            <span class="tech-tag">Thread Group</span>
+                            <span class="tech-tag">Samplers HTTP Request</span>
+                            <span class="tech-tag">Pre-processors</span>
+                            <span class="tech-tag">Post-processors</span>
+                            <span class="tech-tag">Assertions</span>
+                            <span class="tech-tag">Listeners</span>
+                            <span class="tech-tag">CSV Data Set Config</span>
+                            <span class="tech-tag">Summary Report</span>
+                            <span class="tech-tag">Aggregate Report</span>
+                        </div>
+                        <!-- <p class="text-muted"><em>Me permitió aplicar el patrón POM y ejecutar pruebas.</em></p> -->
+                        <div class="d-flex gap-2">
+                            <!-- <a href="#" class="btn btn-primary btn-sm">Demo</a> -->
+                            <a href="https://github.com/KaterinaCamposP/jsonplaceholder2-jmeter"
+                                class="btn btn-outline-primary btn-sm" target="_blank">
                                 <i class="fab fa-github"></i> GitHub
                             </a>
                         </div>
@@ -469,10 +974,16 @@
             <!-- About Section Content-->
             <div class="row">
                 <div class="col-lg-4 ms-auto">
-                    <p class="lead">Me llamo Katerina Campos Pizarro, soy Analista Programadora Computacional. Cuento con experiencia en desarrollo de software, con capacidad para adaptarme a diversos proyectos y entornos tecnológicos. Trabajando en equipos con metodologías ágiles y herramientas de integración continua.</p>
+                    <p class="lead">Me llamo Katerina Campos Pizarro, soy Analista Programadora Computacional. Cuento
+                        con experiencia en desarrollo de software, con capacidad para adaptarme a diversos proyectos y
+                        entornos tecnológicos. Trabajando en equipos con metodologías ágiles y herramientas de
+                        integración continua.</p>
                 </div>
                 <div class="col-lg-4 me-auto">
-                    <p class="lead">Actualmente especializo en los lenguajes Java, JavaScript/TypeScript y Python. En las áreas de la automatización de pruebas de software (QA) y de la automatización robótica de procesos (RPA), utilizando tecnologías y frameworks como Selenium, Cucumber, JUnit, Maven, Newman, Postman, entre otros.</p>
+                    <p class="lead">Actualmente especializo en los lenguajes Java, JavaScript/TypeScript y Python. En
+                        las áreas de la automatización de pruebas de software (QA) y de la automatización robótica de
+                        procesos (RPA), utilizando tecnologías y frameworks como Selenium, Cucumber, JUnit, Maven,
+                        Newman, Postman, entre otros.</p>
                 </div>
             </div>
             <!-- About Section Button-->
@@ -511,7 +1022,8 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>Instituto Profesional IACC</h4>
-                                    <h4 class="subheading">Técnico de Nivel Superior en Análisis y Programación Computacional</h4>
+                                    <h4 class="subheading">Técnico de Nivel Superior en Análisis y Programación
+                                        Computacional</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Formación académica profesional en Programación</p>
@@ -530,7 +1042,9 @@
                                     <h4 class="subheading">Práctica Laboral</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Desarrollo de Automatización de Procesos: Actualización y mejora de procesos de automatización existentes en el software ERP Softland con Python, Selenium, y PyAutoGUI.</p>
+                                    <p class="text-muted">Desarrollo de Automatización de Procesos: Actualización y
+                                        mejora de procesos de automatización existentes en el software ERP Softland con
+                                        Python, Selenium, y PyAutoGUI.</p>
                                 </div>
                             </div>
                         </li>
@@ -546,7 +1060,10 @@
                                     <h4 class="subheading">Especialización en Automatización de Pruebas</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Implementación de escenarios de prueba automatizados utilizando metodologías, técnicas y herramientas de testing para asegurar la conformancia de un producto de acuerdo a las buenas prácticad de la industria.</p>
+                                    <p class="text-muted">Implementación de escenarios de prueba automatizados
+                                        utilizando metodologías, técnicas y herramientas de testing para asegurar la
+                                        conformancia de un producto de acuerdo a las buenas prácticad de la industria.
+                                    </p>
                                 </div>
                             </div>
                         </li>
@@ -572,7 +1089,8 @@
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Redes Sociales</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a>
                     <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-github"></i></a>
                     <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
                 </div>
@@ -595,4 +1113,5 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
